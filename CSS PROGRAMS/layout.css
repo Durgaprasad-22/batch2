@@ -1,0 +1,48 @@
+    header {
+        color: white;
+        background-color: black;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    nav {
+        background-color: darkgoldenrod;
+        width: 20%;
+        height: 400px;
+        float: left;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+    }
+    
+    article {
+        background-color: green;
+        width: 80%;
+        float: left;
+        height: 400px;
+    }
+    
+    article p {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    secton::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    /* pseudo element selector*/

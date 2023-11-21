@@ -1,0 +1,59 @@
+            /* h1 {
+           color: brown;
+           text-align: center;
+           background-color: antiquewhite;
+       }
+       
+       h2 {
+           color: brown;
+           text-align: center;
+           background-color: beige;
+       }
+       
+       h3 {
+           color: brown;
+           text-align: center;
+           background-color: black;
+           */
+            /* grouping selectors */
+            
+            h2,
+            h1,
+            h3 {
+                color: rgb(16, 2, 13);
+                border-style: groove;
+                background-color: aqua;
+                padding: 5px;
+                margin: 0px 650px;
+            }
+            /* id slector*/
+            
+            #first {
+                color: red;
+            }
+            /*class selector */
+            
+            .second {
+                color: rgb(21, 17, 211);
+            }
+            /* universal selector*/
+            
+            * {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: larger;
+            }
+            
+            div p {
+                color: rgb(194, 12, 179);
+                text-size-adjust: "11";
+            }
+            
+            body {
+                /* background-image: url(./background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;*/
+                background: url("background.jpg")no-repeat;
+                background-size: cover;
+            }

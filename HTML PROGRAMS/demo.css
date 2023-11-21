@@ -1,0 +1,17 @@
+                            h1 {
+                                color: blue;
+                                background-color: rgb(206, 202, 214);
+                                text-align: center;
+                            }
+                            
+                            body {
+                                /* background-color: rgb(81, 145, 91);
+                                background-image: url(./bgImg2.jpg);
+                                */
+                            }
+                            
+                            label {
+                                /*font-family: fantasy;*/
+                                color: rgb(19, 18, 18);
+                                font-size: medium;
+                            }
